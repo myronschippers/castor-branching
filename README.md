@@ -47,6 +47,7 @@ The following are some step by step instruction for `git` branching workflow. It
   - `git pull origin main`
 
 
+## Workflow
 
 main -> master = production
 develop = current development
