@@ -21,6 +21,7 @@ class App extends React.Component {
         <main className="container">
           <Welcome />
           {/* CODE COMMENT */}
+          <h2>Please Enjoy the Creatures</h2>
           <div>
             <h2>Our First Creature Is!</h2>
             <p>
