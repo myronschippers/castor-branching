@@ -8,17 +8,17 @@ Creating, Merging, Changing, and Creating Pull Requests for git repository branc
 ## Commands
 
 1. moving to a specific branch
-  - `git checkout <branch-name>`
+    - `git checkout <branch-name>`
 1. creating a new branch and moving to that new branch
-  - `git checkout -b <branch-name>`
+    - `git checkout -b <branch-name>`
 1. combining changes from one branch to the current branch you are on
-  - `git merge <branch-name>`
+    - `git merge <branch-name>`
 1. updating your branch with changes from the remote repository
-  - `git pull origin <branch-name>`
+    - `git pull origin <branch-name>`
 1. I can't see that branch locally what do I do
-  - `git fetch`
+    - `git fetch`
 1. check to see what branch you are currently on
-  - `git branch`
+    - `git branch`
 
 
 ## Git Branching Process
