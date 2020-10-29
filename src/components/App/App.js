@@ -29,6 +29,18 @@ class App extends React.Component {
               {this.state.creatures[0].origin}
             </p>
           </div>
+
+          <h3>All of our spectacular creatures</h3>
+          <ul>
+            {this.state.creatures.map((item, index) => {
+              return (
+                <li key={index}>
+                  <div>Name: {item.name}</div>
+                  Origin: {item.origin}
+                </li>
+              );
+            })}
+          </ul>
         </main>
       </div>
     );
