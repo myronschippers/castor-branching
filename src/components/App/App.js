@@ -21,6 +21,17 @@ class App extends React.Component {
         <main className="container">
           <Welcome />
           {/* CODE COMMENT */}
+          <h3>All of our spectacular creatures</h3>
+          <ul>
+            {this.state.creatures.map((item, index) => {
+              return (
+                <li key={index}>
+                  <div>Name: {item.name}</div>
+                  Origin: {item.origin}
+                </li>
+              );
+            })}
+          </ul>
         </main>
       </div>
     );
