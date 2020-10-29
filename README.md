@@ -41,7 +41,7 @@ The following are some step by step instruction for `git` branching workflow. It
 
 ### Steps for: Creating a Pull Request
 
-**RESOLVE LOCAL CODE:**
+#### RESOLVE LOCAL CODE:
 1. make sure you have tested your feature and it is working fully
 1. with your feature finished ensure all changes are completely committed and pushed up to the remote repository
     - `git add .`
@@ -62,7 +62,7 @@ The following are some step by step instruction for `git` branching workflow. It
 1. send the most recent version of your branch to the remote repository
     - `git push`
 
-**CREATE PULL REQUEST:**
+#### CREATE PULL REQUEST:
 1. go to the repository on [GitHub](https://github.com/)
 1. click on the **Pull Request** tab at the top of the page
 1. click on the **New pull request** button
