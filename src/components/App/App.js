@@ -32,6 +32,14 @@ class App extends React.Component {
               );
             })}
           </ul>
+
+          <div>
+            <h2>Our First Creature Is!</h2>
+            <p>
+              The <strong>{this.state.creatures[0].name}</strong>, hailing from{' '}
+              {this.state.creatures[0].origin}
+            </p>
+          </div>
         </main>
       </div>
     );
