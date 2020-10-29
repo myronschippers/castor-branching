@@ -45,3 +45,18 @@ The following are some step by step instruction for `git` branching workflow. It
 1. move to the main branch and make sure you have the most up to date code
   - `git checkout main`
   - `git pull origin main`
+
+
+
+main -> master = production
+develop = current development
+feature-first-creature
+ •
+ |
+ |
+ •
+ | \
+ |  • - feature-branch
+ •  |
+ | /
+ •
